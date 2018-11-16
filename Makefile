@@ -11,7 +11,7 @@ all: header $(OBJ) footer
 
 download:
 	mkdir -pv unsplash
-	wget -i $(IMAGELIST) --content-disposition -P unsplash
+	wget -nc -i $(IMAGELIST) --content-disposition -P unsplash
 
 header:
 	@echo -e '<?xml version="1.0"?>\n<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">\n<wallpapers>' > $(OUTPUT)
