@@ -1,5 +1,5 @@
 # unsplash-backgrounds
-Backgrounds for Gnome 3 selected from [Unsplash.com](unsplash.com)
+Backgrounds for Gnome 3 selected from [Unsplash.com](http://unsplash.com)
 
 ## Manual Installation
 
